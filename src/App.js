@@ -1,25 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+// import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
+import './styles/App.css';
+import Bar from './components/Bar'
+import Joker from './components/Joker'
+import Joke from './components/Joke'
+import JokeService from './services/jokes'
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+const App = () => {
+
+
+
+  const [joke, setJoke] = useState({})
+  const [page, setPage] = useState('joke')
+
+  useEffect(() => {
+    if (page === 'joke') {
+      JokeService.getJoke()
+                 .then(jk => {
+                   setJoke({ setup: jk.setup, delivery: jk.delivery })
+                 })
+    }} , [page])
+
+  if (page === 'joke') {
+    return (
+      <div>
+        <Bar pageSetter={setPage} />
+        <div className="box">
+          <Joker />
+          <Joke joke={joke}/>
+        </div>
+        {/* <NextJoke /> */}
+      </div>
+    )
+  }
+  else {
+    return (
+      <div>
+        <Bar pageSetter={setPage}/>
+        About page
+      </div>
+    )
+  }
 }
 
 export default App;

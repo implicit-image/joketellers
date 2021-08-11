@@ -1,0 +1,25 @@
+h1 {
+    font-weight: 100;
+    font-family: Arial;
+ }
+
+.barSection {
+    height: 50;
+    width: 45%;
+    text-align: center;
+    line-height: 15px;
+    background-color: rgba(24, 128, 64);
+}
+
+.barSection:hover {
+    animation: ;
+}
+
+
+#left {
+    float: left;
+}
+
+#right {
+    float: right;
+}
