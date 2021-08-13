@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/joketellers/static/css/main.78ccb6e5.chunk.css",
+    "main.js": "/joketellers/static/js/main.5ce8ec4b.chunk.js",
+    "main.js.map": "/joketellers/static/js/main.5ce8ec4b.chunk.js.map",
+    "runtime-main.js": "/joketellers/static/js/runtime-main.a8044ce6.js",
+    "runtime-main.js.map": "/joketellers/static/js/runtime-main.a8044ce6.js.map",
+    "static/js/2.7e5e9db9.chunk.js": "/joketellers/static/js/2.7e5e9db9.chunk.js",
+    "static/js/2.7e5e9db9.chunk.js.map": "/joketellers/static/js/2.7e5e9db9.chunk.js.map",
+    "static/js/3.d1d1318e.chunk.js": "/joketellers/static/js/3.d1d1318e.chunk.js",
+    "static/js/3.d1d1318e.chunk.js.map": "/joketellers/static/js/3.d1d1318e.chunk.js.map",
+    "index.html": "/joketellers/index.html",
+    "static/css/main.78ccb6e5.chunk.css.map": "/joketellers/static/css/main.78ccb6e5.chunk.css.map",
+    "static/js/2.7e5e9db9.chunk.js.LICENSE.txt": "/joketellers/static/js/2.7e5e9db9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8044ce6.js",
+    "static/js/2.7e5e9db9.chunk.js",
+    "static/css/main.78ccb6e5.chunk.css",
+    "static/js/main.5ce8ec4b.chunk.js"
+  ]
+}
