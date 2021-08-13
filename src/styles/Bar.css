@@ -1,12 +1,10 @@
 .bar {
-  background-color: rgba(24, 128, 64);
+  background-color: rgb(34, 39, 49);
   height: 60px;
-  border: solid 1px rgba(24, 168, 64);
-  border-bottom-left-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border: solid 1px rgb(34, 39, 49);
 }
-
 
 #clear {
     clear: both;
+
 }

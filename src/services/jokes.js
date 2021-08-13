@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 
-const url = 'https://v2.jokeapi.dev/joke/Any?type=twopart'
+const url = 'https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,racist,sexist,explicit&type=twopart'
 
 const getJoke = () => axios.get(url)
                           .then(res => res.data)

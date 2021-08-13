@@ -1,20 +1,26 @@
 h1 {
     font-weight: 100;
     font-family: Arial;
+    color: rgb(191, 79, 73);
  }
 
 .barSection {
-    height: 50;
-    width: 45%;
+    width: 100%;
     text-align: center;
+    background-color: rgb(34, 39, 49);
+}
+
+
+.barLink {
     line-height: 15px;
-    background-color: rgba(24, 128, 64);
+    background-color: rgb(34, 39, 49);
+    border: none;
+    text-align: center;
 }
 
-.barSection:hover {
-    animation: ;
-}
-
+/* .barLink:hover { */
+/*     animation: ; */
+/* } */
 
 #left {
     float: left;

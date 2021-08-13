@@ -1,14 +1,7 @@
 .App {
   text-align: center;
-}
-
-
-.box {
-  margin: 250px;
-  padding: 10px;
-  background: rgba(24, 128, 64);
-  border-radius: 15px;
-  box-shadow: 10px 5px 5px teal;
-
-
+  background-image: url("https://images.freeimages.com/images/large-previews/6d5/lake-at-the-cottage-1372381.jpg");
+  background-repeat: no-repeat no-repeat;
+  background-size: cover;
+  height: 100vw;
 }

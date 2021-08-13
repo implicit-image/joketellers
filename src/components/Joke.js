@@ -1,11 +1,17 @@
 import React from 'react'
+import Setup from './Setup'
+import Delivery from './Delivery'
+import '../styles/Joke.css'
 
 
-
-const Joke = ({ joke }) => {
+const Joke = ({ joke, status }) => {
   return (
-    <div>
-    {joke.setup}
+    <div id='joke'>
+      <Setup setup={joke.setup}/>
+      { status === 'delivery'
+        ? <Delivery delivery={joke.delivery} />
+        : <div></div>
+      }
     </div>
   )
 }

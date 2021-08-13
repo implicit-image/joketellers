@@ -1,11 +1,13 @@
 import React from 'react'
+import '../styles/NextJoke.css'
 
 
-
-const NextJoke = () => {
+const NextJoke = ({ getNewJoke }) => {
   return(
     <div>
-      <button>next joke</button>
+      <button id='jokebutton' onClick={() => getNewJoke()}>
+        Get the next joke
+      </button>
     </div>
   )
 

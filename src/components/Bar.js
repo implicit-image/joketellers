@@ -2,11 +2,10 @@ import React from 'react'
 import './../styles/Bar.css'
 import BarSection from './BarSection'
 
-const Bar = ({ pageSetter }) => {
+const Bar = ({ scroller }) => {
   return (
     <div className="bar">
-      <BarSection text="About" pageSwitcher={() => pageSetter('about')} id='left'/>
-      <BarSection text="Get the joke!" pageSwitcher={() => pageSetter('joke')} id='right'/>
+      <BarSection text="About" pageSwitcher={() => scroller('article')} id='left'/>
     </div>
 
   )
